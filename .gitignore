@@ -1,0 +1,5 @@
+/target
+Cargo.lock
+.space
+.env
+/src/main_bk.rs
