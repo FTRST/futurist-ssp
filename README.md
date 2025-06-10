@@ -1,5 +1,9 @@
 ![Responding with modified HTML](https://gitlab.com/terminallyill/rust-server-side-proxy-example/-/raw/master/example_images/example_url.png)
 
+This project handles two pieces of the futurist framework, a server-side proxy used for [NetXplorer](https://github.com/ftrst/ftrst-netxplorer) and the quantum random number generator data stream for [Quantum Coin Flip](https://github.com/ftrst/ftrst-quantum-flip).
+
+Included below is details for the HTML Proxy Server for NetXplorer. The QRNG stream is not documented, but the code is relatively simple to read through.
+
 ## HTML Proxy Server
 
 This project acts as a middleware to extract HTML content from pages and re-serve them within a node environment.
@@ -27,7 +31,7 @@ To solve this, multiple libraries were included to parse the base URL from the c
 ### Using the project
 *Clone the repository*
 
-```git clone https://gitlab.com/terminallyill/rust-server-side-proxy-example.git```
+```git clone https://github.com/ftrst/futurist-ssp```
 
 *Pre-check the setup*
 
